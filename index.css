@@ -1,0 +1,185 @@
+/* curly brackets for prpgrmming purpose{} */
+:root{
+  --color1: rgb(99, 222, 99);
+  --color2: rgb(41, 169, 220);
+  --color3:rgb(255, 140, 0);
+  --color4:rgb(32, 236, 222);
+  --color5:rgb(107, 106, 106);
+  --color6: grey;
+  --font-size1: 35px;
+  --font-size2:60px;
+  --box-shadow:  0px 20px 30px 5px rgb(136, 136, 136); 
+  --border-radius: 5px;
+} 
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+table{
+  margin-top: 50px;
+  width: 800px;
+}
+
+/* this is the tr 1 */
+th , td{
+  height: 40px;
+  padding: 15px;
+  }
+
+.tr1{
+  box-shadow: 0px 20px 30px 5px rgb(136, 136, 136); 
+  border-radius: 5px;
+  font-size: 25px;
+
+}
+
+/* table row 2 */
+.tr2{
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}  
+.tr2 i{
+  color: var(--color1);
+  font-size: var(--font-size1);
+}
+
+.tr2 td.percentvalue2{
+  color: var(--color1);
+  font-size: var(--font-size1);
+}
+.tr2 .para2{
+  color: var(--color6);
+}
+.tr2 .order2{
+  font-size: var(--font-size1);
+  color: var(--color1);
+}
+
+  /* table row 3 */
+  .tr3{
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.tr3 i{
+  color: var(--color2);
+  font-size: var(--font-size1);
+}
+
+.tr3 td.percentvalue3{
+  color: var(--color2);
+  font-size: var(--font-size1);
+}
+.tr3 .para3{
+  color: var(--color6);
+}
+.tr3 .order3{
+  font-size: var(--font-size1);
+  color: var(--color2);
+}
+
+  /* table row 4 */
+  .tr4{
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.tr4 i{
+  color: var(--color3);
+  font-size: var(--font-size1);
+}
+
+.tr4 td.percentvalue4{
+  color: var(--color3);
+  font-size: var(--font-size1);
+}
+.tr4 .para4{
+  color: var(--color6);
+}
+.tr4 .order4{
+  font-size: var(--font-size1);
+  color: var(--color3);
+}
+
+  /* table row 5 */
+  .tr5{
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.tr5 i{
+  color: var(--color4);
+  font-size: var(--font-size1);
+}
+
+.tr5 td.percentvalue5{
+  color: var(--color4);
+  font-size: var(--font-size1);
+}
+.tr5 .para5{
+  color: var(--color6);
+}
+.tr5 .order5{
+  font-size: var(--font-size1);
+  color: var(--color4);
+}
+
+ /* table row 6 */
+ .tr6{
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.tr6 i{
+  color: var(--color5);
+  font-size: var(--font-size1);
+}
+
+.tr6 td.percentvalue6{
+  color: var(--color5);
+  font-size: var(--font-size1);
+}
+.tr6 .para6{
+  color: var(--color6);
+}
+.tr6 .order6{
+  font-size: var(--font-size1);
+  color: var(--color5);
+}
+.tr2 input[type='radio']:checked::after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;     
+    background-color: var(--color1);
+    content: '';
+    display: inline-block;
+}
+.tr3 input[type='radio']:checked::after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;     
+    background-color: var(--color2);
+    content: '';
+    display: inline-block;
+}
+.tr4 input[type='radio']:checked::after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;     
+    background-color: var(--color3);
+    content: '';
+    display: inline-block;
+}
+.tr5 input[type='radio']:checked::after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;     
+    background-color: var(--color4);
+    content: '';
+    display: inline-block;
+}  
+.tr6 input[type='radio']:checked::after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;     
+    background-color: var(--color5);
+    content: '';
+    display: inline-block;
+}
